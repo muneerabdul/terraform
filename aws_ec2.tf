@@ -4,7 +4,7 @@ provider "aws" {
   region     = var.region
 }
 
-resource "aws_instance" "mynewtrial" {
+resource "aws_instance" "mytrial" {
   ami           = "ami-07a0c6e669965bb7c"
   instance_type = "t2.micro"
 }
